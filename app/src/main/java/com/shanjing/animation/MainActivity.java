@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         initView();
         initAnimator();//进入页面加载动画
-        initPlayer();
+        initPlayer();//进入页面加载音乐
     }
 
     private void initPlayer() {
